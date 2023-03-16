@@ -16,6 +16,13 @@ app.get('/', (req, res) => {
   res.send('Helllo this is a sample route')
 })
 
+app.get('/sample', (req, res) => {
+  res.json({
+    body: 'This is a second route',
+    code: 200,
+  })
+})
+
 server.listen(8000, () => {
   console.log(`Server is listing at port Number 8000`)
 })
