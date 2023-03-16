@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage {
             script {
-                echo "hellllo"
+                echo "hellll"
             }
         }
     }
