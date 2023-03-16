@@ -10,7 +10,9 @@ pipeline {
             }
         }
         stage("Sample stage") {
-            echo "hellooo"
+            steps{
+                echo "hellooo"
+            }
         }
     }
 }
