@@ -11,7 +11,7 @@ pipeline {
         }
         stage("Sample stage") {
             steps{
-                echo "hellooo"
+                echo "hellooo ${params.Version}"
             }
         }
     }
