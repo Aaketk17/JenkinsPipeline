@@ -3,3 +3,4 @@ DockerFile
 .git
 .gitignore
 .dockerignore
+Jenkinsfile
